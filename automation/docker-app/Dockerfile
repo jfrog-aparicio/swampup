@@ -2,6 +2,6 @@ FROM jfrog.local:5001/docker-framework:latest
 
 MAINTAINER Jainish Shah jainishs@jfrog.com
 
-ADD war/*.war /home/exec/tomcat/webapps/swampup.war
+ADD war/*.war /home/exec/tomcat/webapps/hashiconf.war
 
 CMD /bin/bash -c cd /home/exec; /home/exec/tomcat/bin/catalina.sh run
